@@ -29,7 +29,7 @@ spdlog: spdlog/spdlog.h
 spdlog/spdlog.h:
 	@mkdir -p spdlog
 	@curl -L https://github.com/gabime/spdlog/archive/v$(SPDLOG_VERSION).tar.gz | \
-		tar xvz spdlog-$(SPDLOG_VERSION)/include --strip-components=2
+		gtar xvz spdlog-$(SPDLOG_VERSION)/include --strip-components=2
 
 nlohmann: nlohmann/json.hpp
 nlohmann/json.hpp:
