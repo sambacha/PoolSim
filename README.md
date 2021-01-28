@@ -21,6 +21,11 @@ make
 make install
 ```
 
+## Mac OS X 
+
+see `fix/macos` branch for the modified files and install script 
+
+
 ## Installation
 
 The default install location will be `/usr/local`. You can override this
